@@ -3,14 +3,14 @@ import classes from './MealsSummary.module.css';
 const MealsSummary = () => {
   return (
     <section className={classes.summary}>
-      <h2>Delicious Food, Delivered To You</h2>
+      <h2>Crafting Delightful Moments, One Plate at a Time!</h2>
       <p>
-        Choose your favorite meal from our broad selection of available meals
-        and enjoy a delicious lunch or dinner at home.
+     Israel's Kitchen is a premier online destination for food enthusiasts. 
+       
       </p>
       <p>
-        All our meals are cooked with high-quality ingredients, just-in-time and
-        of course by experienced chefs!
+      Whether you're a seasoned chef or a kitchen novice, we're here to inspire, guide, 
+      and satisfy your taste buds.
       </p>
     </section>
   );

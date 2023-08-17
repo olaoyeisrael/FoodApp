@@ -1,4 +1,4 @@
-import mealImage from "../../assets/meals.jpg";
+import mealImage from "../../assets/foodHero2.jpg";
 import HeaderCartButton from "./HeaderCartButton";
 import classes from "./header.module.css";
 const Header = (props) => {
