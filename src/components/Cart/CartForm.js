@@ -1,5 +1,5 @@
 import classes from "./CartForm.module.css";
-import { useRef, useState } from "react";
+import { Fragment, useRef, useState } from "react";
 
 const isEmpty = (value) => value.trim() === "";
 
@@ -43,6 +43,7 @@ const CartForm = (props) => {
   };
 
   return (
+    <Fragment>
     <form className={classes.form} onSubmit={handleSubmit}>
       <div className={`${classes.control} ${formInputsValidity.name ? '':classes.invalid}`}>
         <label htmlFor="name">Your Name</label>
@@ -66,6 +67,7 @@ const CartForm = (props) => {
         </button>
       </div>
     </form>
+    </Fragment>
   );
 };
 export default CartForm;
